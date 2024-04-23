@@ -68,11 +68,11 @@
         width: 100%;
         padding: 30px;
         transition: 0.5s;
-        // transform: translateY(520px);
+        transform: translateY(520px);
     }
-    // &__card:hover &__info__card{
-    //     transform: translateY(0);
-    // }
+    &__card:hover &__info__card{
+        transform: translateY(0);
+    }
     &__info__title{
         text-align: center;
         font-size: 30px;
